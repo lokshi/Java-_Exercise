@@ -11,7 +11,7 @@ public class Test {
                 if(a==1 || a ==(2*i-1)){
                     System.out.print("*");
                 }else{
-                    System.out.print(" ");
+                    System.out.print (" ");
                 }
 
             }
