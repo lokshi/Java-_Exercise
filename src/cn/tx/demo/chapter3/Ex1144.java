@@ -12,7 +12,7 @@ public class Ex1144 {
                 }
             }
             if (flag == false) {
-//                System.out.print(i+"\t");
+                System.out.print(i+"\t");
                 k++;
 //                if (k>999){
 //                    System.out.print(k+"\t");
