@@ -1,36 +1,32 @@
 package cn.tx.demo;
 
+class Dog{
+    String name;
+    int gender;
+    double weight;
+
+    public void sleep() {
+        System.out.println(name +"睡觉了。");
+    }
+}
+
 public class Test {
     public static void main(String[] args) {
-        for (int i = 1; i <= 5; i++) {
-            for (int j = 1; j <=(5-i) ; j++) {
-                System.out.print(" ");
-                }
-            for (int a = 1; a <=2*i-1 ; a++) {
-                //打印空心菱形
-                if(a==1 || a ==(2*i-1)){
-                    System.out.print("*");
-                }else{
-                    System.out.print (" ");
-                }
+        Dog dog=new Dog();
+        dog.name="笨笨";
+        dog.gender=1;
+        dog.weight=10.0;
 
-            }
-        System.out.println();
-        }
+        dog.sleep();
 
-        for (int i = 4; i > 0; i--) {
-            for (int j = 1; j <=(5-i) ; j++) {
-                System.out.print(" ");
-            }
-            for (int a = 1; a <=2*i-1 ; a++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-
+//        dog=null;
+//        System.out.println(dog.name);
 
 
     }
+
+
+
 
 }
 
