@@ -39,7 +39,7 @@ class Guess{
 public class Ex01 {
     public static void main(String[] args) {
         Guess guess = new Guess();
-        guess.setA(9);
+        guess.setA(8);
         boolean flag =guess.dd();
         if(flag){
             System.out.println("yes");
