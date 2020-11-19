@@ -1,10 +1,10 @@
 package src.cn.tx.demo.Chapter5;
 
-class MyNumber {
+class Number {
     private int n1;
     private int n2;
 
-    public MyNumber(int n1, int n2) {
+    public Number(int n1, int n2) {
         this.n1 = n1;
         this.n2 = n2;
     }
@@ -34,9 +34,13 @@ class MyNumber {
 
 
 public class Ex06 {
-        MyNumber match = new MyNumber(20,15);
+    public static void main(String[] args) {
+        Number match = new Number(30,21);
         match.addition();
         match.subtration();
         match.multiplication();
         match.division();
+
+    }
+
 }
